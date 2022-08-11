@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -131,11 +137,16 @@
         </div>
     </section>
 
-    <section class = "footer">
-        <div class="container">
-            <div class="footer_text">Служба поддержки  |  Политика конфиденциальности <br> Позвоните нам 8-800-555-01-21</div>
+    <footer>
+        <div class="info">
+            <div class="info_links">
+                <a href="#" class="underlined">Служба поддержки</a> <!-- # в ссылках используется как заглушка. Когда мы никуда не хотим переходить -->
+                |
+                <a href="#" class="underlined">Политика конфиденциальности</a>
+            </div>
+            Позвоните нам <a href="tel:+88005550121">8-800-555-01-21</a> <!-- Ссылки можно создавать для быстрых звонков и отправки електронных писем (mailto) -->
         </div>
-    </section>
+    </footer>
 
 
 </body>
